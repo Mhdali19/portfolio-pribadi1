@@ -1,0 +1,519 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET END */
+
+
+nav { 
+    width: 100%;
+    background-color: #20272f; 
+   
+}
+
+.logo {
+    background-image: url(../Image/20220621_204438.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin: 50px 30px 50px 100px;
+}
+
+.d {
+    display: inline-block;
+    color: white;
+}
+
+nav p {
+    position: absolute;
+    top: 65px;
+    font-size: 25px;
+}
+
+nav ul {
+    position: absolute;
+    top: 65px;
+    font-size: 25px;
+    margin-right: 20px;
+    right: 400px;
+}
+
+nav ul li {
+    padding-right: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+nav form {
+    position: absolute;
+    right: 40px;
+    top: 65px;
+    z-index: 10;
+  
+   color: white;
+}
+
+.bagsearch {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+nav button {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 5px;
+    border: none;
+}
+
+/* NAVBAR END */
+
+
+
+
+.kotak1 {
+    background-color: #20272f;
+    width: 100%;
+    float: left;
+   
+}
+
+.bagiankiri {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+
+.bagiankiri, .c {
+    padding-bottom: 10px;
+}
+
+.bagiankiri button {
+    margin-bottom: 80px;
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px 1px blue;
+}
+
+.bagiankiri h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.bagiankiri h2 span {
+    color: blue;
+}
+
+.bagiankiri h1 {
+    font-size: 35px;
+    color: blue;
+}
+
+.bagiankiri,
+.a {
+    margin-top: 25px;
+    text-align: justify;
+    color: white;
+    width: 500px;
+}
+
+
+.bagiankiri ul li {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: 140px;
+    margin-right: 20px;
+}
+
+.bagiankiri ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.bagiankiri ul li a:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+.image {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-image: url(../Image/Picsart_23-05-04_13-03-23-384.jpg);
+    background-size: cover;
+    background-position: 0 -130px;
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    box-shadow: 0px 10px 20px white;
+
+}
+
+.clea {
+    clear: both;
+}
+/* END KOTAK 1 */
+
+/* START KOTAK 2 */
+
+.kotak2 {
+    background-color: #171c22;
+}
+
+.coba {
+position: relative;
+color: white;  
+    font-size: 30px;
+    top: 80px;
+    margin-left: 100px;
+}
+
+.kotak2 h1 {
+  position: relative;
+    margin-left: 100px;
+    top: 100px;
+    color: white;
+    font-size: 70px;
+}
+
+.kotak2 span {
+    color: blue;
+}
+
+.wid {
+    background-color: #20272f;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 40px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.bungkus .wid {
+    margin-left: 60px;
+}
+
+.bungkus {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1.zoro {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: blue;
+}
+
+.zoro1 {
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+    color: white;
+    left: 65px;
+}
+
+.zoro2 {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: white;
+    text-align: justify;
+    font-size: .9rem;
+    padding-right: 10px;
+}
+
+.f {
+    position: absolute;
+}
+
+h1.zoro3 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: blue;
+}
+
+.zoro4 {
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+    color: white;
+    left: 120px;
+    
+}
+
+.zoro5 {
+    position: absolute;
+top: 200px;
+left: 10px;
+color: white;
+text-align: justify;
+font-size: .9rem;
+padding-right: 10px;
+}
+
+.nami {
+    position: absolute;
+right: 160px;
+}
+
+h1.zoro6 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: blue;
+}
+
+.zoro7 {
+    position: absolute;
+    top: 150px;
+    font-size: 25px;
+    color: white;
+    left: 25px;
+    
+}
+
+.zoro8 {
+    position: absolute;
+top: 200px;
+left: 10px;
+color: white;
+text-align: justify;
+font-size: .9rem;
+padding-right: 10px;
+}
+
+.kotk2 {
+    width: 100%;
+    height: 150px;
+    background-color: #171c22;
+}
+
+.kotak3 {
+    width: 100%;
+    background-color: #20272f;
+    position: relative;
+}
+
+.slider-container {
+    width: 50%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    left: 320px;
+    margin-top: 50px;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide:nth-child(1) {
+    background-color: #f2f2f2;
+    transform: translateX(0);
+  }
+  
+  .slide:nth-child(2) {
+    background-color: #e0e0e0;
+    transform: translateX(100%);
+  }
+  
+  .slide:nth-child(3) {
+    background-color: #d2d2d2;
+    transform: translateX(200%);
+  }
+  
+  .slider-navigation {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .slider-navigation button {
+    background-color: blue;
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+.luffy h1 {
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.luffy h1 span{
+    color: blue;
+}
+
+.luffy p {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 40%;
+    margin-left: 400px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.kotak4 {
+    width: 100%;
+    background-color: #171c22;
+}
+
+.kokok p {
+    font-size: 25px;
+    color: blue;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+
+.kokok h1 {
+    font-size: 50px;
+    margin-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+
+
+
+.testimonial-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .testimonial {
+    width: calc(20% - 20px);
+    margin-bottom: 20px;
+    background-color: #0074D9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #20272f;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    line-height: 1.6;
+  }
